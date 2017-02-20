@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#89D3D3D3"
+    >
+
+    <TextView
+        android:id="@+id/tv_locationname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="店名："
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_locationbranch_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="分店名："
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_locationcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="城市"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_locationregion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地区"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_locationaddr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址"
+        android:textSize="20sp" />
+        
+        <TextView 
+            android:id="@+id/tv_locationtel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="详情" />
+
+</LinearLayout>
